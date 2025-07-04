@@ -27,8 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Experience</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#snake">Surprise!</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#bunny">Surprise!</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,6 +51,61 @@
                 <p class="masthead-subheading font-weight-light mb-0">Software Tester -- Aspiring Game Developer -- Dreamer -- Grayscale Enthusiast</p>
             </div>
         </header>
+        <section class="page-section experience" id="experience">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experience</h2>
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Tabs -->
+        <ul class="nav nav-tabs justify-content-center mb-4" id="experienceTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="intel2020-tab" data-bs-toggle="tab" data-bs-target="#intel2020" type="button" role="tab">Intel (2019–Present)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="motorola-tab" data-bs-toggle="tab" data-bs-target="#motorola" type="button" role="tab">Motorola Solutions</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="intel2016-tab" data-bs-toggle="tab" data-bs-target="#intel2016" type="button" role="tab">Intel (2016–2018)</button>
+            </li>
+        </ul>
+        <!-- Tab Content -->
+        <div class="tab-content" id="experienceTabsContent">
+            <div class="tab-pane fade show active" id="intel2020" role="tabpanel" aria-labelledby="intel2020-tab">
+                <h5>Senior FPGA Firmware Validation Engineer – Intel Microelectronics</h5>
+                <p><strong>2019 – Present</strong></p>
+                <ul style="text-align: left;">
+                    <li>I led a global engineering team across four countries, driving firmware validation for advanced FPGA platforms like Stratix10 and Agilex, while overseeing weekly regression cycles with over 2,600 automated test cases to maintain a 95%+ pass rate.</li>
+                    <li>I represent the team in client demos and internal security conferences, sharing our work on firmware security validation and building strong cross-functional partnerships.</li>
+                    <li>With over ~600 high-impact bug reports filed, I’ve contributed significantly to quality improvements and helped reduce post-silicon debug time by 80% by the implementation of automated regression tests.</li>
+                    <li>In addition to validation, I actively work under the simulation team to develop and enhance SIMICS models and infrastructure, enabling early-stage testing from a year down to 3 months before silicon availability as part of our shift-left strategy.</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="motorola" role="tabpanel" aria-labelledby="motorola-tab">
+                <h5>Engineering Project Lead / Senior Systems Validation Engineer – Motorola Solutions (via B-Global)</h5>
+                <p><strong>2018 – 2019</strong></p>
+                <ul style="text-align: left;">
+                    <li>I built Python-based system automation tools—including socket-level communication and GUI-driven testing—streamlining our system-level validation.</li>
+                    <li>The validation encompassed test strategies developed to be compliant with EN50128 safety standards and the solution planning was carried out with both internal teams and external clients.</li>
+                    <li>I was promoted to a leadership role after five months, and balanced leadership and hands-on responsibilities by delivering two software products from conception to release while mentoring junior engineers and coordinating cross-functional teams.</li>
+                    <li>By championing and migrating nearly 500 manual test cases (in excel) into TestRail and automating 50% of them during the duration of my tenure, I helped accelerate validation cycles and enhance test coverage by half the time taken (~50%).</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="intel2016" role="tabpanel" aria-labelledby="intel2016-tab">
+                <h5>Graphics Software Validation Engineer – Intel Microelectronics</h5>
+                <p><strong>2016 – 2018</strong></p>
+                <ul style="text-align: left;">
+                    <li>This was where I cut my teeth in the tech industry—testing graphics drivers across Windows, Android, and Linux platforms.</li>
+                    <li>My focus included compliance testing for HDCP and multimedia playback, as well as OpenGL/DirectX rendering validations.</li>
+                    <li>I worked hand-in-hand with developers to isolate and debug rendering and platform-specific issues.</li>
+                    <li>It was also my first exposure to CI pipelines and build validation—experiences that still shape how I design tests today.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
          <!-- Projects Section-->
         <section class="page-section projects" id="projects">
             <div class="container">
@@ -85,66 +141,9 @@
             </div>
         </section>
         <!-- Resume Experience Tabs Section -->
-<section class="page-section bg-light" id="experience">
-    <div class="container">
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experience</h2>
-        <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-briefcase"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <!-- Tabs -->
-        <ul class="nav nav-tabs justify-content-center mb-4" id="experienceTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="intel2020-tab" data-bs-toggle="tab" data-bs-target="#intel2020" type="button" role="tab">Intel (2019–Present)</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="motorola-tab" data-bs-toggle="tab" data-bs-target="#motorola" type="button" role="tab">Motorola Solutions</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="intel2016-tab" data-bs-toggle="tab" data-bs-target="#intel2016" type="button" role="tab">Intel (2016–2018)</button>
-            </li>
-        </ul>
-        <!-- Tab Content -->
-        <div class="tab-content" id="experienceTabsContent">
-            <div class="tab-pane fade show active" id="intel2020" role="tabpanel" aria-labelledby="intel2020-tab">
-                <h5>Senior FPGA Firmware Validation Engineer – Intel Microelectronics</h5>
-                <p><strong>2019 – Present</strong></p>
-                <ul>
-                    <li>I currently lead a dynamic team of engineers across four countries, focused on debugging and validating firmware for cutting-edge FPGA platforms (Stratix10, Agilex).</li>
-                    <li>Every week, I track over 2,600 test cases and report regression results to global stakeholders, ensuring our devices stay reliable and performant.</li>
-                    <li>My expertise in hardware security has led me to demo our features to clients and speak at internal security conferences.</li>
-                    <li>Since joining, I've filed over 600 impactful bug tickets and led cross-domain collaboration with design, DFT, and platform teams.</li>
-                    <li>I also contribute to pre-silicon validation through SIMICS modeling, driving our shift-left initiatives forward.</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="motorola" role="tabpanel" aria-labelledby="motorola-tab">
-                <h5>Engineering Project Lead / Senior Systems Validation Engineer – Motorola Solutions (via B-Global)</h5>
-                <p><strong>2018 – 2019</strong></p>
-                <ul>
-                    <li>At Motorola Solutions, I juggled both leadership and hands-on roles—managing end-to-end delivery of two software products while mentoring junior engineers.</li>
-                    <li>I architected test strategies compliant with EN50128 standards and led solution discussions with internal and client teams.</li>
-                    <li>Moved legacy test cases into TestRail and successfully automated 50% of them, drastically improving test cycle efficiency.</li>
-                    <li>I also spearheaded the development of system-level Python automation scripts, including socket and GUI-based interfaces.</li>
-                    <li>My time here sharpened my ability to balance technical depth with cross-functional coordination.</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="intel2016" role="tabpanel" aria-labelledby="intel2016-tab">
-                <h5>Graphics Software Validation Engineer – Intel Microelectronics</h5>
-                <p><strong>2016 – 2018</strong></p>
-                <ul>
-                    <li>This was where I cut my teeth in the tech industry—testing graphics drivers across Windows, Android, and Linux platforms.</li>
-                    <li>My focus included compliance testing for HDCP and multimedia playback, as well as OpenGL/DirectX rendering validations.</li>
-                    <li>I worked hand-in-hand with developers to isolate and debug rendering and platform-specific issues.</li>
-                    <li>It was also my first exposure to CI pipelines and build validation—experiences that still shape how I design tests today.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Game Section-->
-        <section class="page-section snake" id="snake">
+        <section class="page-section bunny" id="bunny">
             <div class="container">
                 <!-- Snake Game Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Floppy Bunny</h2>
